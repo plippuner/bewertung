@@ -1,0 +1,53 @@
+@font-face {
+    font-family: "Oswald";
+    src:url("fonts/Oswald-Bold.ttf");
+}
+
+*, .overlay-subline {
+    font-family:  "oswald", sans-serif;
+}
+
+.front, .back {
+    background-color: #ee7a7c;
+    color: #fdffd2;
+}
+
+.participant-row-main.box-highlight {
+    background-color: #ee7a7c;
+    color: #fdffd2; 
+}
+
+.overlay-highlight {
+    width: auto;
+    display: inline !important;
+    position: relative;
+}
+
+.overlay-center {
+    transform: skewY(-12deg);
+    background-color: transparent;
+}
+
+.box-scores.box-highlight, .box-scores .overlay-subline, #skew {
+    transform: skewY(-12deg);
+}
+
+.naming, .odometer-inside, #naming {
+    background-color: #ee7a7c;
+    padding: 0px 30px 10px 30px;
+    display: inline;
+    color: #fdffd2;
+}
+
+.box-highlight {
+    background-color: transparent;
+    color: #fdffd2;
+}
+
+.participant-list-name, .participant-column-name {
+  font-size: 3.5vh;
+}
+
+.participant-column-score {
+    align-items: flex-start;
+}
